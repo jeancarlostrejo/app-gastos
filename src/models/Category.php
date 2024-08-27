@@ -61,7 +61,7 @@ class Category extends Database
         return $category;
     }
 
-    public function exists(string $name): bool
+    public static function exists(string $name): bool
     {
         try {
             $db = new Database();
