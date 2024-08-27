@@ -52,7 +52,7 @@ class Expense extends Database
         return $expense;
     }
 
-    public function getTotal(array $expenses): int | float
+    public static function getTotal(array $expenses): int | float
     {
         $total = 0;
 
