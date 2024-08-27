@@ -7,7 +7,7 @@ CREATE TABLE categories (
 CREATE TABLE expenses (
     id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(255) NOT NULL,
-    expense decimal(5,2) NOT NULL,
+    expense decimal(12,2) NOT NULL,
     date DATE NOT NULL,
     category_id INT NOT NULL,
 
