@@ -23,9 +23,9 @@ $total = Expense::getTotal($expenses);
     <?php if(!empty($expenses)): ?>
         <?php foreach($expenses as $expense) : ?>
                 <div class="expenses"> 
-                    <div><?= $xpense->getTitle()?></div>
-                    <div><?= $xpense->getCategory()->getName()?></div>
-                    <div><?= $xpense->getExpense()?></div>
+                    <div><?= $expense->getTitle()?></div>
+                    <div><?= $expense->getCategory()->getName()?></div>
+                    <div><?= $expense->getExpense()?></div>
                 </div>
 
         <?php endforeach ?> 
