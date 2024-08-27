@@ -24,6 +24,7 @@ $categories = Category::getAll();
     <link rel="stylesheet" href="src/resources/main.css">
 </head>
 <body>
+    <?php require "src/resources/navbar.php" ?>
     <div class="container">
         <h1>Create Expense</h1>
         <form action="" method="POST">

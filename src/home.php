@@ -17,6 +17,7 @@ $total = Expense::getTotal($expenses);
     <link rel="stylesheet" href="src/resources/main.css">
 </head>
 <body>
+    <?php require "src/resources/navbar.php" ?>
     <div class="container">
         <h1>Home</h1>
         <div>Total $: <?=$total;?></div>
