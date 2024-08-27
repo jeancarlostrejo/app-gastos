@@ -1,0 +1,15 @@
+{
+    "name": "ferre/gastos",
+    "autoload": {
+        "psr-4": {
+            "Ferre\\Gastos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean Carlos Trejo",
+            "email": "jeancarlostrejo19@gmail.com"
+        }
+    ],
+    "require": {}
+}
