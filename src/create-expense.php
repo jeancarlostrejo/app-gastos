@@ -21,10 +21,11 @@ $categories = Category::getAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Expense</title>
+    <link rel="stylesheet" href="src/resources/main.css">
 </head>
 <body>
-    <h1>Create Expense</h1>
     <div class="container">
+        <h1>Create Expense</h1>
         <form action="" method="POST">
             <input type="text" name="title" placeholder="Name of expense...">
             <input type="number" name="expense" placeholder="30.0">
